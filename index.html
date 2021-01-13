@@ -20,76 +20,69 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
       rel="stylesheet"
     />
-
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+     <link rel="stylesheet" href="main.css">
     <title>Devchallenges</title>
-
-    <style>
-      body {
-        font-family: "Poppins", sans-serif;
-      }
-
-      ul {
-        padding-left: 24px;
-      }
-
-      li {
-        margin-bottom: 8px;
-      }
-
-      .welcome {
-        max-width: 800px;
-        margin: 0 auto;
-      }
-
-      .welcome-text {
-        margin-top: 30vh;
-        font-weight: 500;
-      }
-
-      .welcome-text p {
-        font-size: 1rem;
-        font-weight: 400;
-      }
-
-      .welcome-text h1 {
-        font-size: 1.5rem;
-      }
-
-      .welcome-text a {
-        color: #f7542e;
-      }
-    </style>
+  
   </head>
   <body>
-    <div class="welcome">
-      <div class="welcome-text">
-        <h1>
-          Welcome to
-          <a href="https://devchallenges.io/" target="_blank"
-            >devchallenges.io</a
-          >
-        </h1>
+    <header>
+        <nav class="navbar">
+            <span class="navbar-toggle" id="js-navbar-toggle">
+                    <i class="fas fa-bars"></i>
+                </span>
+            <a href="#" class="logo">logo</a>
+            <ul class="main-nav" id="js-menu">
+            <li>
+                <a href="#" class="nav-links">Home</a>
+            </li>
+            <li>
+                <a href="#" class="nav-links">Collection</a>
+            </li>
+            <li>
+                <a href="#" class="nav-links">About</a>
+            </li>
+            <li>
+                <a href="#" class="nav-links">Contact</a>
+            </li>
+            </ul>
+        </nav>
+        <main class="header">
+            <div class="hero_text">
+                <h1>Modern Interior</h1>
+                <p>
+                    A full-Service residential &
+                    commercial interior design and
+                    staging company offering
+                    professional organizing & eco-services.
+                </p>
+            </div>
+            <div class="hero_img">
+                <img class="img_size" src="./photo1.png" alt="photo" >
+                <div class="hero_img-1">
+                    <div class="back-colr">
+                        <img class="img_size-1" src="./photo2.png" alt="photo">
+                        <div class="hero_text-1">
+                            <h3>Aliza Webber</h3>
+                            <p>Interior designer</p>
+                        </div>
+                    </div>
+                    <p class="tx">Designed in 2020 by Aliza Webber</p>
+                </div>
+            </div>
+        </main>
 
-        <p>
-          If you have any questions, don't hesitate to ask on Discord. Here are
-          7 general steps to complete the challenge:
-        </p>
-      </div>
+      <footer class="footer">
+          <div class="border">
+            <p>David Igheose <a href="#"> @ DevChallenges.io</a></p>
+          </div>
+       </footer>
 
-      <ul>
-        <li><b>Step 1:</b> Create a new repository on github</li>
-        <li><b>Step 2:</b> Copy resources, README.md to your repository</li>
-        <li>
-          <b>Step 3:</b> Login to Figma to checkout font, color, spacing,..
-        </li>
-        <li><b>Step 4:</b> Complete all user stories</li>
-        <li><b>Step 5:</b> Update README.md</li>
-        <li><b>Step 6:</b> Deploy your app and submit your solution</li>
-        <li>
-          <b>Step 7:</b> Share your solution on Discord, Twitter and other
-          platforms to ask for feedback
-        </li>
-      </ul>
-    </div>
+    </header>
+
+   
+
+   <script src="./app.js"></script>
+   <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script>
   </body>
 </html>
